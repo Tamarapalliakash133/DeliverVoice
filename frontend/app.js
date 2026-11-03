@@ -1,5 +1,5 @@
 /* DeliverCall frontend — plain JS, no build step. */
-const API_BASE = ""; // set to e.g. "http://localhost:8000" if you serve this folder from a different server
+const API_BASE = "https://delivervoice.onrender.com"; // set to e.g. "http://localhost:8000" if you serve this folder from a different server
 
 // ---------- helpers ----------
 const $ = (s, r = document) => r.querySelector(s);
