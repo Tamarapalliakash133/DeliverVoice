@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>DeliverCall</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="logo"><i>📦</i>DeliverCall</div>
+    <nav>
+      <button id="tab-agent" class="on" data-tab="agent">🛵 Delivery agent</button>
+      <button id="tab-dash" data-tab="dash">📊 Order updates</button>
+    </nav>
+    <span class="pill" id="pill-mode"><span class="dot"></span><span id="pill-mode-text">Calls not connected</span></span>
+    <span class="pill" id="pill-llm">Rules mode</span>
+  </header>
+  <div id="view"></div>
+  <script src="app.js"></script>
+</body>
+</html>
